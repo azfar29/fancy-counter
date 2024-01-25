@@ -24,7 +24,7 @@ const incrementCounter = () => {
     if (newValue > 5) {   
         newValue = 5;
         counterEl.classList.add('counter__limit'); //classlist do not need dot
-        counterTitleEl.innerHTML = 'Limit! Buy <b>pro</b> for >5';
+        counterTitleEl.innerHTML = 'Limit! Buy <b>pro</b> for more usage';
         buttonIncreaseEl.disabled = true;
         buttonDecreaseEl.disabled = true;
     }
